@@ -4,7 +4,7 @@ use qr2term::print_qr;
 use std::time::{SystemTime, UNIX_EPOCH};
 use totp_lite::{totp, Sha512};
 
-/// Manage inventory
+// Two-Factor Authentication
 #[derive(Parser)]
 #[command(disable_help_subcommand(true), author, version, about, long_about = None)]
 struct Cli {
