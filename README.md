@@ -1,2 +1,2 @@
-# twoauthrs
+# authr
 Two-Factor Authentication 
