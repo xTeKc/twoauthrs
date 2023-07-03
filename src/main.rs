@@ -33,9 +33,9 @@ async fn main() {
     let result: String = totp::<Sha512>(password, seconds);
     assert_eq!(8, result.len());
 
-    //println!("result var: {}", result);
+    println!("result var: {}", result);
 
-    //print_qr(&result);
+    print_qr(&result);
 
     let cli = Cli::parse();
 
